@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Mystical Inu NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Mystical Inu NFT Project is a decentralized project';
+const welcome_p = 'The Mystical Inu NFT Project is a decentralized project and a unique NFT collection of different Shiba Inus uniquely minted & created. All of them come in a mystical light surrounding their inner spiritual state, reflecting their owners spirit. Some of them have the power to manifest wealth, items or themselves into your life.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
