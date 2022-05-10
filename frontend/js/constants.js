@@ -1,9 +1,9 @@
-const contractAddress = "0x1FCd38b4202aEfb51b3230843e6fE262366CbE9C"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0x9ee822637486078edd043553b63e3a11a35af5f6"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the Mystical Inu NFT Project!!";
+const welcome_h1 = "Welcome to the First Inu NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Mystical Inu NFT Project is a decentralized project and a unique NFT collection of different Shiba Inus. All of them come in a mystical light surrounding their inner spiritual state, reflecting their owners spirit.';
+const welcome_p = 'The First Inu NFT Project is a decentralized project and a unique NFT collection of different Shiba Inus. They are the first to come, the wisest among the Mystical Inus.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";

@@ -7,21 +7,22 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Mystical Inus";
-const description = "The Mystical Inus are a unique NFT collection of different Shiba Inus uniquely minted & created. All of them come in a mystical light surrounding their inner spiritual state, reflecting their owners spirit. Some of them have the power to manifest wealth, items or themselves into your life.";
+const namePrefix = "First Inus";
+const description = "The First Inus are a unique NFT collection of different Shiba Inus uniquely minted & created. All of them come in a mystical light surrounding their inner spiritual state, reflecting their owners spirit. Some of them have the power to manifest wealth, items or themselves into your life.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 1000,
+    growEditionSizeTo: 11,
     layersOrder: [
       { name: "Background" },
       { name: "BaseColour" },
       { name: "BaseOutlines" },
-      { name: "Accessoires" },
+      { name: "Robe" },
       { name: "Eyes" },
       { name: "Mouth" },
+      { name: "Accessoires" },
     ],
   },
 ];
@@ -48,22 +49,22 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'MYSTICALINUS';
-const CONTRACT_SYMBOL = 'MI';
+const CONTRACT_NAME = 'FirstInus';
+const CONTRACT_SYMBOL = 'FI';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xc99c526D2acBF6E9Bd4cD99b0Bb402b15f4e2668';
-const TREASURY_ADDRESS = '0xc99c526D2acBF6E9Bd4cD99b0Bb402b15f4e2668';
+const OWNER_ADDRESS = '0x022531238e22E2E125b2dc81188b22EaB2889162';
+const TREASURY_ADDRESS = '0x022531238e22E2E125b2dc81188b22EaB2889162';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.01; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const MINT_PRICE = 1; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 2; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-05-02T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-05-10T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xc99c526D2acBF6E9Bd4cD99b0Bb402b15f4e2668"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x022531238e22E2E125b2dc81188b22EaB2889162"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
@@ -75,7 +76,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "The Mystical Inus are a unique NFT collection of different Shiba Inus uniquely minted & created. All of them come in a mystical light surrounding their inner spiritual state, reflecting their owners spirit. Some of them have the power to manifest wealth, items or themselves into your life."; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreiebjpl3gjaeg6mc3gd4tuebbnt2meeoi4qcfve674rojil2m5s6py"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
