@@ -3,7 +3,7 @@ const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the First Inu NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The First Inu NFT Project is a decentralized project and a unique NFT collection of different Shiba Inus. They are the first to come, the wisest among the Mystical Inus.';
+const welcome_p = "The First Inu NFT Project is a decentralized project and a unique NFT collection of different Shiba Inus. They are the first to come, the wisest among the Mystical Inus.";
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
