@@ -7,8 +7,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "First Inus";
-const description = "The First Inus are a unique NFT collection of different Shiba Inus uniquely minted & created. All of them come in a mystical light surrounding their inner spiritual state, reflecting their owners spirit. Some of them have the power to manifest wealth, items or themselves into your life.";
+const namePrefix = "Mystical Inus";
+const description = "The Mystical Inus are a unique NFT collection of different Shiba Inus uniquely minted & created. All of them come in a mystical light surrounding their inner spiritual state, reflecting their owners spirit. Some of them have the power to manifest wealth, items or themselves into your life.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -19,7 +19,6 @@ const layerConfigurations = [
       { name: "Background" },
       { name: "BaseColour" },
       { name: "BaseOutlines" },
-      { name: "Robe" },
       { name: "Eyes" },
       { name: "Mouth" },
       { name: "Accessoires" },
@@ -49,17 +48,17 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'FirstInus';
-const CONTRACT_SYMBOL = 'FI';
+const CONTRACT_NAME = 'Mystical Inus';
+const CONTRACT_SYMBOL = 'MI';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x022531238e22E2E125b2dc81188b22EaB2889162';
 const TREASURY_ADDRESS = '0x022531238e22E2E125b2dc81188b22EaB2889162';
-const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 1; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MAX_SUPPLY = 111; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 10; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 2; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-05-10T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-05-25T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
