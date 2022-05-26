@@ -6,8 +6,8 @@
 /* Poppins, Arvor */
 
 :root {
-  --font-primary: "Avenir", sans-serif;
-  --font-secondary: "Avenir", serif;
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Poppins", serif;
   --font-code: "Roboto", monospace;
   --bg-color: #00163f;
   --bg-color-transparent: #00163f80;
