@@ -1,7 +1,7 @@
 const contractAddress = "0x9ee822637486078edd043553b63e3a11a35af5f6"; //Replace with your own contract address
 const chain = 'polygon'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the Mystical Inu NFT Project!";
+const welcome_h1 = "Brace yourself for the Mystical Inus!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
 const welcome_p = "The Mystical Inu NFT Project is a unique NFT collection of different Shiba Inus.";
 const welcome_p2 = "Some of them have the power to manifest wealth, items or themselves into your life.";
