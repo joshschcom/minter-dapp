@@ -14,11 +14,11 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 11,
+    growEditionSizeTo: 111,
     layersOrder: [
       { name: "Background" },
-      { name: "BaseColour" },
-      { name: "BaseOutlines" },
+      { name: "Fur" },
+      { name: "Outlines" },
       { name: "Eyes" },
       { name: "Mouth" },
       { name: "Accessoires" },
@@ -54,11 +54,11 @@ const METADATA_UPDATABLE = true; // set to false if you don't want to allow meta
 const OWNER_ADDRESS = '0x022531238e22E2E125b2dc81188b22EaB2889162';
 const TREASURY_ADDRESS = '0x022531238e22E2E125b2dc81188b22EaB2889162';
 const MAX_SUPPLY = 111; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 10; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 2; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const MINT_PRICE = 11; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 1; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-05-25T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-05-29T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
